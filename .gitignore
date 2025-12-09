@@ -1,0 +1,15 @@
+/models/
+/data/processed/*.jsonl
+/.venv/
+/__pycache__/
+/.ipynb_checkpoints/
+/huggingface/
+/cache/
+/tmp/
+*.zip
+*.bin
+*.pt
+*.ckpt
+*.pickle
+*.pkl
+*.joblib

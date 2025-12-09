@@ -1,0 +1,7 @@
+torch>=2.2
+transformers>=4.44
+datasets>=3.0
+scikit-learn>=1.5
+tqdm>=4.66
+orjson>=3.10
+python-dotenv>=1.0

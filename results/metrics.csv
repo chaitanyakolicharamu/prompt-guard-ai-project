@@ -1,0 +1,8 @@
+model,family,split,accuracy,precision,recall,f1
+Keyword Rule,Baseline,val,0.6074,0.7400,0.6074,0.5430
+TF-IDF + LR,Classical,test_mindgard,0.7547,1.0000,0.7550,0.8600
+BiLSTM,Deep NN,test_mindgard,0.8530,1.0000,0.8530,0.9210
+BERT (full-trained),Deep NN,test_mindgard,0.9001,1.0000,0.9000,0.9470
+Gemini 2.5 Zero-shot,LLM,balanced_300,0.6167,0.5671,0.9867,0.7202
+Gemini Few-shot + CoT,LLM,balanced_300,0.5667,0.5357,1.0000,0.6977
+Gemini Self-Consistency (3),LLM,balanced_300,0.5433,0.5226,1.0000,0.6865
